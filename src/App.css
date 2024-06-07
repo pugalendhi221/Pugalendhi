@@ -1,0 +1,13 @@
+*{
+  background-color: #240750;
+}
+.app-container {
+  position: relative; /* Set position to relative to contain absolute positioned elements */
+}
+
+.navbar-container {
+  position: fixed; /* Set position to fixed */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Take up the full width of the viewport */
+  z-index: 1000; /* Ensure it's above other content */
+}
