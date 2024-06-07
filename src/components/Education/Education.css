@@ -1,0 +1,68 @@
+.education-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150vh;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.header-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-container h1{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.header-container p{
+    color: grey;
+}
+
+.education-card-view {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Set height to auto */
+    background-color: #001219;
+    margin: 10px;
+    padding: 20px; /* Increase padding for better spacing */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle effect */
+    border: 1px solid blueviolet;
+    transition: transform 0.3s ease; 
+}
+
+.education-card-view:hover {
+    transform: translateY(-5px);
+    
+}
+
+.education-card-view h4 {
+    font-size: 24px; /* Example font size for header */
+    color: #E5E5E5; /* Example color for header */
+}
+
+.education-card-view h5 {
+    font-size: 20px; /* Example font size for subheader */
+    color: #555; /* Example color for subheader */
+}
+
+.education-card-view h6 {
+    font-size: 18px; /* Example font size for date */
+    color: #777; /* Example color for date */
+}
+
+.education-card-view p {
+    font-size: 16px; /* Example font size for paragraph */
+    color: #999; /* Example color for paragraph */
+    margin-top: 10px; /* Example margin-top for spacing */
+}
+
+.education-card-view h4,h5,h6,p{
+    margin: 0px;
+    background-color: transparent;
+}
