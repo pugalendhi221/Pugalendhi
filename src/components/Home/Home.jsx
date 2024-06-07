@@ -20,6 +20,7 @@ const Home = () => {
                 <div id='profile-container'>
                     <img src='src\assets\afro-man-saluting.jpg' alt='profile pic'></img>
                 </div>
+                <div></div>
             </div>
         </div>
     )
