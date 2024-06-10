@@ -1,0 +1,140 @@
+.projects-main-container {
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-main-container h1, .projects-main-container p {
+    text-align: center;
+    color: grey;
+}
+
+.projects-main-container h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.projects-main-container p {
+    color: grey;
+    max-width: 600px;
+}
+
+.projects-main-container img {
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overall-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.projects-card-container {
+    width: 45vh;
+    height: auto;
+    background-color: rgb(23, 23, 33);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 12px 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    border: 0.1px solid blueviolet;
+}
+
+.projects-card-container:hover {
+    transform: translateY(-10px);
+}
+
+.projects-card-container h2, .projects-card-container p {
+    margin: 10px 0;
+}
+
+.technologies {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(23, 23, 33);
+    flex-wrap: wrap;
+}
+
+.projects-card-container h2{
+    background-color: transparent
+}
+
+.technologies p {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.projects-card-container p {
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+    .projects-card-container {
+        width: 40vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .projects-card-container {
+        width: 35vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-card-container {
+        width: 80%;
+    }
+
+    .projects-main-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .projects-main-container p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-main-container h1 {
+        font-size: 2rem;
+    }
+
+    .projects-main-container p {
+        font-size: 0.9rem;
+    }
+
+    .projects-card-container {
+        width: 90%;
+    }
+
+    .projects-card-container p {
+        font-size: 12px;
+    }
+
+    .technologies {
+        gap: 5px;
+    }
+
+    .technologies p {
+        font-size: 12px;
+    }
+}
