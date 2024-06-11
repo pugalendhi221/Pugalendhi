@@ -28,7 +28,7 @@ const Contact = () => {
             alert('Message sent successfully!');
         }, (err) => {
             console.log('FAILED...', err);
-            alert('Failed to send message, please try again later.');
+            alert('Failed to send message, please try again later. ');
         });
     };
 
