@@ -1,3 +1,4 @@
+// Skills.js
 import React from 'react';
 import './Skills.css';
 
@@ -33,7 +34,7 @@ const Skills = () => {
   return (
     <div id="Skills" className='main-container'>
       <h1>Skills</h1>
-      <h2>Skills which I have learnt through</h2>
+      <p>Skills which I have learnt through</p>
       <div className='sub-container'>
         <div className='card-container'>
           <div className="card-header">Front end</div>
